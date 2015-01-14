@@ -29,15 +29,10 @@ This is an example installation, tested on linux (Linux-3.11-2-amd64-x86_64 with
 ***2.1. Download and compile the VLFeat library***
 
 > $ wget http://www.vlfeat.org/download/vlfeat-0.9.17-bin.tar.gz
-
 > $ tar -xf vlfeat-0.9.17-bin.tar.gz
-
 > $ cd vlfeat-0.9.17
-
 > $ make
-
 > $ export VLFEAT_PATH=$PWD
-
 > $ cd ../
 
 ***2.2. Build the module***
@@ -52,7 +47,7 @@ For single user installation run as user:
 
 For all users installation run as root:
 
-> # python setup.py install
+    # python setup.py install
 
 ***2.4 Run simple example***
 
@@ -65,17 +60,13 @@ For all users installation run as root:
 Downloading the KTH_TIPS2 dataset.
 
 > $ mkdir dataset
-
 > $ cd dataset
-
 > $ wget http://www.nada.kth.se/cvap/databases/kth-tips/kth-tips2-a_col_200x200.tar
-
 > $ tar xvf kth-tips2-a_col_200x200.tar
 
 Running the classification example on the KTH_TIPS2 dataset.
 
 > $ cd ..
-
 > $ python bin/classification.py --output=TMPData --dataset=dataset/kth-tips2-a_col_200x200 --experiment=lbp_mob
 
 Wait for the results, approx 30' for a core i7 machine.
