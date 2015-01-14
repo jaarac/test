@@ -19,7 +19,7 @@ This library is provided *as is*. ...
 
 In debian you can install all the dependencies, except vlfeat, with:
 
-> # apt-get install python2.7 python-numpy python-skimage python-sklearn python-colorama build-essential libgomp1
+    # apt-get install python2.7 python-numpy python-skimage python-sklearn python-colorama build-essential libgomp1
 
 2. Installation
 ---------------
@@ -54,7 +54,7 @@ For all users installation run as root:
 
 > # python setup.py install
 
-***2.4 Run simple example
+***2.4 Run simple example***
 
 > $ python samples/descriptors.py --image="path_to_image_file" --output="path_to_existing_directory"
 
